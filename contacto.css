@@ -1,0 +1,54 @@
+@import url('./globals.css');
+.btn{
+    background: var(--primerColor);
+    color: #f0f0f0;
+    background-image: linear-gradient(45deg, var(--primerColor), var(--segundoColor));
+}
+.campo{
+    margin-bottom: 8px;
+}
+.completa{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--borde);
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background-color: var(--superficie);
+    color: #f0f0f0;
+}
+.formulario{
+    background-color: var(--superficie2);
+    padding: 10px;
+    border-radius: 6px;
+    button{
+        width: 100%;
+    }
+}
+.infoContacto{
+    background-color: var(--superficie2);
+    padding: 10px;
+    border-radius: 6px;
+    color: #f0f0f0;
+    h3{
+        margin-bottom: 6px;
+    }
+    p{
+        color: #f0f0f0;
+        margin: 0;
+    }
+    margin: 16px 0;
+}
+p{
+    color: var(--texto);
+    margin: 16px 0px;
+}
+.map{
+    height: 150px;
+    background-color: var(--superficie2);
+    margin-top: 24px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--borde);
+}
