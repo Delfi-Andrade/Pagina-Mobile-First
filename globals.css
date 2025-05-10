@@ -15,6 +15,11 @@
     box-sizing: border-box;
     font-family: "Inter";
 }
+a{
+    text-decoration: none;
+    color: var(--texto);
+
+}
 main{
     padding: 16px;
 }
